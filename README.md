@@ -3,6 +3,8 @@
 ---
 * change the link of the video that you want to generate visits to and run it (./youtube_bot.py)
 * This code has been tested and run on Ubuntu 20.04
+* WebDriver for Chrome
+  * [WebDriver](https://sites.google.com/a/chromium.org/chromedriver/home)
 
 site under construction
 ---

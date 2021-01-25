@@ -23,7 +23,7 @@ list_browser.append(browser_4)
 
 for browser in list_browser:
     """ url you want to visit """
-    browser.get('https://www.youtube.com/watch?v=bp-aIZ7We_g')
+    browser.get('https://www.youtube.com/watch?v=9GQ5AgZqN3Y&t=15s')
 
 while(True):
     number_random = randrange(0, len(list_browser))
