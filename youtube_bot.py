@@ -11,15 +11,16 @@ from random import randrange
 time_view = 5
 list_browser = []
 
-browser_1 = webdriver.Chrome(executable_path='./chromedriver.exe')
-browser_2 = webdriver.Chrome(executable_path='./chromedriver.exe')
-browser_3 = webdriver.Chrome(executable_path='./chromedriver.exe')
+browser_1 = webdriver.Chrome(executable_path='./chromedriver')
+browser_2 = webdriver.Chrome(executable_path='./chromedriver')
+browser_3 = webdriver.Chrome(executable_path='./chromedriver')
 
 list_browser.append(browser_1)
 list_browser.append(browser_2)
 list_browser.append(browser_3)
 
 for browser in list_browser:
+    """ url you want to visit """
     browser.get('https://www.youtube.com/watch?v=9GQ5AgZqN3Y')
 
 while(True):
