@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ script that generates
-    views on youtube """
+    views on youtube
+    - install seleniun"""
 
 
 from selenium import webdriver
