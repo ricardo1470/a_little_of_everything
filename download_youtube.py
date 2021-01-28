@@ -3,30 +3,11 @@
     - install pytube3 """
 
 
-import subprocess
-from pytube import YouTube
+import pytube
 
-DOWNLOADS_FOLDER = './downloads'
+url = 'https://www.youtube.com/watch?v=7t2o-AS-Kb0&list=RD7t2o-AS-Kb0&start_radio=1'
 
-def download_video(url, output_directory):
-    yt = YouTube(url)
-    highest_quality_stream = yt.streams.filter(
-        progressive=True
-    ).order_by(
-        'resolution'
-    ).desc(
-    ).first(
-    ).download(
-        output_directory
-    )
+youtube = pytube.YouTube(url)
 
-    return highest_quality_stream
-
-def main():
-    # Ask the user for the youtube video url
-    url = input("Enter the YouTube video url: ")
-    file_location = download_video(url, DOWNLOADS_FOLDER)
-    subprocess.call(["open", file_location])
-
-if __name__ == "__main__":
-    main()
+video = youtube.streams.get_by_itag(135)
+video.download('./downloads')
