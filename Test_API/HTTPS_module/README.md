@@ -1,4 +1,4 @@
-> # Test_API
+> # HTTPS module
 ---
 * ## address to perform test requests for the api
 * **https://jsonplaceholder.typicode.com/users**
@@ -19,7 +19,7 @@ As `HTTPS` is a standard `Node.js` module, there’s been no need for a `package
 ---
 
 ## License
-*`Test_API` is open source and therefore free to download and use without permission.*
+*`HTTPS module` is open source and therefore free to download and use without permission.*
 
 <a href="url"><img src="https://www.holbertonschool.com/holberton-logo.png" align="middle" width="100" height="30"></a>
 
