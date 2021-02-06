@@ -1,4 +1,4 @@
-> # Test_API
+> # HTTP requests
 ---
 ---
 | **Filename** | **Description** |
@@ -10,7 +10,7 @@
 ---
 
 ## License
-*`Test_API` is open source and therefore free to download and use without permission.*
+*`HTTP requests` is open source and therefore free to download and use without permission.*
 
 <a href="url"><img src="https://www.holbertonschool.com/holberton-logo.png" align="middle" width="100" height="30"></a>
 
