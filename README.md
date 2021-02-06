@@ -4,7 +4,7 @@
 | **Filename** | **Description** |
 |---|---|
 | [youtube_bot](./youtube_bot/)  | `bot` to generate views on `youtube`.  |
-| [Test_API](./Test_API/) | testing with `node` libraries for `API'S`.  |
+| [HTTP requests](./HTTP_requests/) | testing with `node` libraries for `API'S`.  |
 | []() | add desc |
 |  |   |
 ---
