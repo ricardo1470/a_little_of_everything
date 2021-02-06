@@ -5,7 +5,7 @@
 |---|---|
 | [HTTPS module](./HTTPS_module/)  | example of how to use: standard `Node.js HTTP(S)` module.  |
 | [Axios](./Axios/) | example of how to use: `Axios request` library.  |
-| []() | add desc |
+| [Got](./Got/) | example of how to use: `Got` library. |
 |  |   |
 ---
 
