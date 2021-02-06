@@ -3,6 +3,8 @@
 * ## address to perform test requests for the api
 * **https://jsonplaceholder.typicode.com/users**
 
+* ## HTTPS documentation
+    * https://nodejs.org/api/https.html
 * ## how it works
 
 Let’s walk through the code. First, we require the `https` standard Node module, which is available with `Node.js` installation. No need for a `package.json` file or any `npm install --save` to `get` this running.
